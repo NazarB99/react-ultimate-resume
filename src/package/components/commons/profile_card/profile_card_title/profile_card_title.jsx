@@ -24,10 +24,7 @@ export const ProfileCardTitle = ({
     const classes = useStyles({ variant, overrideColor });
     return (
         <AnimatePresence>
-            <Component
-                className={cn(classes.container, receivedClasses.container)}
-                {...motionSettings}
-            >
+            <Component className={cn(classes.container, receivedClasses.container)} {...motionSettings}>
                 {beforeTypography}
                 <Typography
                     variant="h2"

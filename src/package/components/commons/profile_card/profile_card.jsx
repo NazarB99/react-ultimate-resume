@@ -191,10 +191,7 @@ const ProfileCardComponent = ({
                     {children}
                     <AnimatePresence>
                         {side && (
-                            <ProfileCardSide
-                                key={`card_side_${side}_${kind}`}
-                                animationProps={OPACITY_TRANSITIONS}
-                            >
+                            <ProfileCardSide key={`card_side_${side}_${kind}`} animationProps={OPACITY_TRANSITIONS}>
                                 <SideComponent data={data} handleAddButtonClick={handleAddButtonClick} />
                             </ProfileCardSide>
                         )}

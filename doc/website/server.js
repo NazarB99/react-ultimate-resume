@@ -7,10 +7,10 @@ const fs = require('fs');
 const app = express();
 
 process
-    .on('unhandledRejection', reason => {
+    .on('unhandledRejection', (reason) => {
         console.error('Unhandled Rejection at Promise', reason);
     })
-    .on('uncaughtException', err => {
+    .on('uncaughtException', (err) => {
         console.error('Uncaught Exception thrown', err);
         process.exit(1);
     });

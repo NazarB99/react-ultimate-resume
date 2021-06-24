@@ -1,18 +1,16 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Nazar Bayramsahatov",
+        "label": "Software developer",
+        "picture": "https://habrastorage.org/getpro/moikrug/uploads/user/100/039/265/3/avatar/medium_e0d908cb49335a1ec24b7080f8475158.png",
+        "email": "nazar99bayramsahatov@gmail.com",
+        "phone": "+99364051802",
+        "summary": "My CV",
         "location": {
             "address": "2712 Broadway St",
             "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "city": "Ashgabat",
+            "countryCode": "Turkmenistan"
         },
         "profiles": [
             {
@@ -24,30 +22,32 @@
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Teletype App",
+            "position": "Mobile Developer",
+            "website": "https://teletype.app",
+            "summary": "Developed 'Teletype' mobile application from ground up and worked with web app",
+            "location": "Moscow, Russia",
+            "startDate": "2020-10-01",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Akylly Tilsimat",
+            "position": "Software developer",
+            "website": "https://akyllytilsimat.com",
+            "startDate": "2019-02-14",
+            "endDate": "2020-09-30",
+            "summary": "Worked on developing mobile applications on React Native",
+            "location": "Ashgabat, Turkmenistan",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "АТМ",
+            "position": "Software developer",
+            "website": "http://itpark.tm",
+            "startDate": "2017-07-02",
+            "endDate": "2019-02-13",
+            "summary": "Tech Stack: HTML, CSS, JS(Vue.js, jQuery), PHP(Laravel)",
+            "location": "Ashgabat, Turkmenistan",
             "highlights": ["Started the company"]
         }
     ],
@@ -63,22 +63,18 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
+            "institution": "RSSU",
+            "area": "Business-Informatics",
+            "studyType": "Graduating",
+            "startDate": "2017-09-01",
             "courses": ["DB1101 - Basic SQL"]
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
+            "institution": "HarvardX React Native Development",
+            "area": "React Native mobile apps developing",
             "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "website": "https://courses.edx.org/certificates/5c494298e3f64f958dfa63faa86f74e6",
+            "startDate": "2019-08-22"
         }
     ],
     "awards": [
@@ -100,43 +96,43 @@
     ],
     "skills": [
         {
-            "name": "React",
+            "name": "React Native",
             "level": "Master",
             "value": 100,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Angular",
+            "name": "Flutter",
             "level": "Master",
             "value": 80,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
+            "name": "Angular",
             "level": "Master",
             "value": 60,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Gmail",
+            "name": "NodeJs",
+            "level": "Master",
+            "value": 50,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Vue",
             "level": "Master",
             "value": 20,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "K8S",
+            "name": "Nest.js",
             "level": "Master",
-            "value": 80,
+            "value": 70,
             "keywords": ["HTML", "CSS", "Javascript"]
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }, { "language": "Italien", "value": 15, "fluency": "Native speaker" } ],
+    "languages": [{ "language": "English", "value": 80, "fluency": "Native speaker" }, { "language": "Russian", "value": 100, "fluency": "Native speaker" } ],
     "interests": [
         {
             "name": "France europe gif by nike football",
@@ -169,74 +165,52 @@
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
-        },
-        {
-            "index": 2,
+            "index": 1,
             "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
+            "description": "Mobile app which finds for you the best voting candidate",
             "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
+            "images": [{ "url": "https://play-lh.googleusercontent.com/bxcaFzwYzGXE7fPSzpf4b7ROTDkfqp4wb8jw9pAIec1Y_UomDC4qveXnFioRc2BbOpY=s180-rw" }],
+            "link": "https://play.google.com/store/apps/details?id=com.the_candidate",
+            "name": "The Election",
+            "endDate": "2020-09-20"
         },
         {
             "index": 4,
             "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
+            "description": "Приложение для пополнения мобильного счета",
             "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
+            "images": [{ "url": "https://play-lh.googleusercontent.com/PNi2Jz5__WYKievrJvmiKKkF3OcY1wE_XhLtiQ_7Ew4o-3NDPDKXuYt2s9MLBNEMiaGq=s180-rw" }],
+            "link": "https://play.google.com/store/apps/details?id=com.akyllytilsimat.baypay",
+            "name": "Pay Bay - оплата мобильного счета",
             "endDate": "2020-06-01"
         },
         {
             "index": 3,
             "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
+            "description": "Приложение по покупке и продаже товаров",
             "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
+            "images": [{ "url": "https://play-lh.googleusercontent.com/n2oRWYcyE5Hkm7MPkX9VmnBqw_h58OSxmeUEku7Nv08apEv04VkOuFrIi-qw3eMDpxg=s180-rw" }],
+            "link": "https://play.google.com/store/apps/details?id=com.atm_andorid",
+            "name": "Bay Tm",
             "endDate": "2020-06-01"
         },
         {
-            "index": 1,
+            "index": 2,
             "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
+            "description": "Работал над приложением сети магазинов",
             "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
+            "images": [{ "url": "https://play-lh.googleusercontent.com/os8twkbd6ElUpCCsdY-xLcr4auGiFOLfPmRUiCwkmtYE2QGZ3vf7pYF_yZku70yDWi4Q=s180-rw" }],
+            "link": "https://apps.apple.com/ca/app/%D1%85%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BC%D0%B8%D0%BB%D1%8F/id1511199391",
+            "name": "Хмельная миля"
         },
         {
             "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
+            "date": { "month": 9, "year": 2020 },
+            "description": "Мобильное приложение Teletype app",
             "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
+            "images": [{ "url": "https://play-lh.googleusercontent.com/zyjGZD5yDFILgGfcYPpMhpSrKbi2ozHkZNjKocptn5Sh9NBOzZyfIpsgnc73dDIFO0Vo=s180-rw" }],
+            "link": "https://apps.apple.com/us/app/teletype-app/id1531835742",
+            "name": "Teletype app"
         }
     ],
     "specific": {
@@ -246,9 +220,9 @@
         },
         "dreamJob": {
             "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" }
+                { "name": "Moscow, Russia" },
+                { "name": "Minsk, Belarus" },
+                { "name": "New York, USA" }
             ],
             "remoteFrequency": "regularly"
         },
@@ -258,17 +232,17 @@
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "codingYears": 4,
+            "codingReason": "When I was in school tried 3D designing, but my teacher advised me to try programming and when I tried then I wondered why am I doing the 3D thing while I can develop my personal mobile app. It excited me stronger than 3Ds Max).",
             "searchState": "activelySearching",
-            "experienceYears": 0,
-            "codeExperienceYears": 1,
+            "experienceYears": 4,
+            "codeExperienceYears": 4,
             "otherExperienceYears": 1
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Mobile and Front-end development."
     },
     "resumeCustomization": {
         "imageHeader": {

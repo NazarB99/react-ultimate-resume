@@ -15,7 +15,6 @@ export const styles = (theme) => {
         place: {
             transformOrigin: 'center left',
             color: secondary[500]
-
         },
         deleteIcon: {
             fill: '#fff',

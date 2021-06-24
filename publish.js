@@ -93,7 +93,7 @@ const run = async () => {
     const cleanBuildBranchSpinner = ora('Cleaning build branch...').start();
     let rootFiles = fs.readdirSync(__dirname);
     if (rootFiles && rootFiles.length) {
-        rootFiles = rootFiles.filter(name => !TO_PRESERVE_DURING_CLEAN_UP.includes(name));
+        rootFiles = rootFiles.filter((name) => !TO_PRESERVE_DURING_CLEAN_UP.includes(name));
         cleanBuildBranchSpinner.text = `Cleaning build branch... (Removing ${rootFiles.length} element${
             rootFiles.length > 1 ? 's' : ''
         })...`;
@@ -153,8 +153,8 @@ const run = async () => {
     const postBuildCleanUpSpinner = ora('Doing post-build clean-up...').start();
     const rootNewFiles = fs.readdirSync(__dirname);
     rootNewFiles
-        .filter(name => !srcFiles.includes(name) && !TO_PRESERVE_DURING_CLEAN_UP.includes(name))
-        .forEach(fileName => {
+        .filter((name) => !srcFiles.includes(name) && !TO_PRESERVE_DURING_CLEAN_UP.includes(name))
+        .forEach((fileName) => {
             rimraf.sync(__dirname + `/${fileName}`, {}, () => {});
         });
     postBuildCleanUpSpinner.succeed('Did post-build clean up.');

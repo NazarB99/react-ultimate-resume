@@ -39,7 +39,7 @@ const messages = {
 };
 const useStyles = createUseStyles(styles);
 
-const DEFAULT_OPTIONS ={
+const DEFAULT_OPTIONS = {
     locale: 'en',
     customization: {
         imageHeader: {

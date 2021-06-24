@@ -10,7 +10,7 @@ const webpackConfigProd = require('react-scripts/config/webpack.config')('produc
 // this one is optional, just for better feedback on build
 const chalk = require('chalk');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
-const green = text => {
+const green = (text) => {
     return chalk.green.bold(text);
 };
 
@@ -23,8 +23,8 @@ webpackConfigProd.plugins.push(new BundleAnalyzerPlugin());
 // and decide that compilation is kind of hang up on you; progress bar shows nice progression of webpack compilation
 webpackConfigProd.plugins.push(
     new ProgressBarPlugin({
-        format: `${green('analyzing...')} ${green('[:bar]')}${green('[:percent]')}${green('[:elapsed seconds]')} - :msg`,
-    }),
+        format: `${green('analyzing...')} ${green('[:bar]')}${green('[:percent]')}${green('[:elapsed seconds]')} - :msg`
+    })
 );
 
 // actually running compilation and waiting for plugin to start explorer

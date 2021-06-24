@@ -24,11 +24,7 @@ const OtherSkills = ({ motionProps, othersSkills }) => {
     const color = useMemo(() => getColorsFromCardVariant(theme, variant).color, [theme, variant]);
 
     return (
-        <motion.div
-            className={classes.otherSkillsContainer}
-            {...motionProps}
-            transition={spring}
-        >
+        <motion.div className={classes.otherSkillsContainer} {...motionProps} transition={spring}>
             <Typography variant="h3" component="h3" classes={{ container: classes.otherSkillsTitle }}>
                 <FormattedMessage id="Skills.otherskills.title" defaultMessage="I also master" />
             </Typography>
